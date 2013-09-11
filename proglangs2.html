@@ -33,9 +33,9 @@ Programmeringsspråk
 <h2>
 Velg programmeringsspårk:
 </h2>
-<form>
+
 <label for="proglangs">Velg:</label>
-<select name="select-pl" id="proglangs" onChange="printToOutputBox">
+<select id="proglangs" onChange="printToOutputBox(this)">
 	<option value="Blank"></option>
 	<option value="ActionScript">ActionScript</option>
 	<option value="AppleScript">AppleScript</option>
@@ -61,9 +61,8 @@ Velg programmeringsspårk:
 	<option value="Scheme">Scheme</option>
 
 </select>
-<br>
-Du valgte:
-<span id="outputbox">Intet programeringsspråk er selektert. Selekter et programeringsspråk!</span>
+<br> 
+Du valgte:<div id="outputbox"></div>
 
 </p>
 
