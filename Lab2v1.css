@@ -1,0 +1,52 @@
+/*denne styrer hvilken skrifttype,farge og bakgrunnsfarge som blir brukt.
+ samt hvor langt fra venstre kan skriften skal begynne.*/
+body {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: white;
+  background-color: #0000FF;  }
+  /*Er den boksen linkene på venstre side ligger inni.
+  viser størrelse og posisjon på den.*/
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+  /*En div class på seleksjonsboksen der jeg posisjonerer den til høyre.*/
+ .språk{
+ text-align: right}
+  /*skrifttype på overskriften*/
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif;}
+   /*Hvordan det skal se ut inni boksene på venstresiden. */
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+  /*Gjør at linkene i listen til høyre ikke har understrek.*/
+ul.navbar a {
+  text-decoration: none  }
+  /*Gjør at linken er blå*/
+a:link {
+  color: blue }
+  /*gjør at når man har trykket på linken en gang så blir den lilla.*/
+a:visited {
+  color: purple }
+  /*Bestemmer Hvordan adresseskriften nede til venstre skal se ut
+  og har en stiplet linje som grenser oppover.*/
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+   /*bestemmer hvordan paragrafen står i forhold til toppen og
+   en linje som grenser opp*/
+p{
+margin-top: 1em;
+padding-top: 1em;
+border-top: thick solid;}
