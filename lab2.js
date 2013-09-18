@@ -1,0 +1,8 @@
+﻿//var språk = document.getElementById("språk");alert(språk);språk.style.color = "green";
+
+function printToOutputBox(selectobj){
+var e_proglangs = document.getElementById("proglangs");
+var e_outputbox = document.getElementById("outputbox");
+e_outputbox.innerHTML = "Du har selektert "  + e_proglangs.options[selectobj.selectedIndex].text+"</a>";
+}
+//github.com/is104/
