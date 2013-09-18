@@ -6,8 +6,8 @@ body {
         Times, serif;
   color: white;
   background-color: #0000FF;  }
-  /*Er den boksen linkene på venstre side ligger inni.
-  viser størrelse og posisjon på den.*/
+  /*Er den boksen linkene pï¿½ venstre side ligger inni.
+  viser stï¿½rrelse og posisjon pï¿½ den.*/
 ul.navbar {
   list-style-type: none;
   padding: 0;
@@ -16,26 +16,26 @@ ul.navbar {
   top: 2em;
   left: 1em;
   width: 9em }
-  /*En div class på seleksjonsboksen der jeg posisjonerer den til høyre.*/
- .språk{
+  /*En div class pï¿½ seleksjonsboksen der jeg posisjonerer den til hï¿½yre.*/
+ .sprï¿½k{
  text-align: right}
-  /*skrifttype på overskriften*/
+  /*skrifttype pï¿½ overskriften*/
 h1 {
   font-family: Helvetica, Geneva, Arial,
         SunSans-Regular, sans-serif;}
-   /*Hvordan det skal se ut inni boksene på venstresiden. */
+   /*Hvordan det skal se ut inni boksene pï¿½ venstresiden. */
 ul.navbar li {
   background: white;
   margin: 0.5em 0;
   padding: 0.3em;
   border-right: 1em solid black }
-  /*Gjør at linkene i listen til høyre ikke har understrek.*/
+  /*Gjï¿½r at linkene i listen til hï¿½yre ikke har understrek.*/
 ul.navbar a {
   text-decoration: none  }
-  /*Gjør at linken er blå*/
+  /*Gjï¿½r at linken er blï¿½*/
 a:link {
   color: blue }
-  /*gjør at når man har trykket på linken en gang så blir den lilla.*/
+  /*gjï¿½r at nï¿½r man har trykket pï¿½ linken en gang sï¿½ blir den lilla.*/
 a:visited {
   color: purple }
   /*Bestemmer Hvordan adresseskriften nede til venstre skal se ut
@@ -44,9 +44,5 @@ address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
-   /*bestemmer hvordan paragrafen står i forhold til toppen og
+   /*bestemmer hvordan paragrafen stï¿½r i forhold til toppen og
    en linje som grenser opp*/
-p{
-margin-top: 1em;
-padding-top: 1em;
-border-top: thick solid;}
