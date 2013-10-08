@@ -41,7 +41,7 @@ er veldig bra at man kan definere en "class" og bruke den på flere plasser i te
 
 Siden html er hieraksik må den ofte laste siden på nytt når det er endringer grafisk.
 Dette tar masse "dyrebar" prosessorkraft og kan gjøre at applikasjoner går senere enn de trenger.
-Siden canvas ikke har denne hierakiske modellen vil 
+Siden canvas ikke har denne hierakiske modellen vil det gå raskere å laste grafiske endringer. 
 Det som er bra med canvas er at det grafiske som blir fremstilt på siden vil se likt ut 
 på alle nettlesere og over flere plattformer. Her er det vanligvis med html/css bare mulig 
 og å få nesten helt like sider
