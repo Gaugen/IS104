@@ -21,6 +21,13 @@ Lab 3
 
 Filer:
 
+lab3_v1.html
+lab3_v2.html
+lab3_v3.html
+lab3.css
+
+Fikk ikke til å bruke variabel eller sette farge på teksten vha. ekstern css i oppgave 0.
+
 Svar på spørsmål:
 
 0)
@@ -40,5 +47,10 @@ på alle nettlesere og over flere plattformer. Her er det vanligvis med html/css
 og å få nesten helt like sider
 
 2)
+Jeg vil si presantasjonsmåten canvas bruker er ved hjelp av mus og skjermberøring. 
+i canvasboksen kan man ved hjelp av mus, tastatur og lignende tegne.
+(ikke sikker påp om jeg forsto spørsmålet riktig.)
+
+x) tipper jeg har brukt rundt 3-4 timer 
 
 
