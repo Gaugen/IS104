@@ -1,0 +1,52 @@
+Fikk ikke til å bruke variabel eller sette farge på teksten vha. ekstern css i oppgaven.Vet 
+jeg hadde gjort riktig med ekstern css siden en jeg hjalp gjorde det samme og det fungerte der.
+
+
+
+Svar på spørsmål:
+
+0)
+
+Problemet med å bruke "rå" Javascript er at det er fortsatt forskjeller på hvordan de 
+forskjellige nettleserne 
+implementerer "Event Listener Model", slik at man må eventuelt 
+skrive egen kode for flere populære nettlesere.
+Men når vi bruker jQuery biblioteket har vi en
+ viss garanti for at koden vi skriver funker i de mest populære nettleserne.
+
+
+
+1)
+
+Sterke sider til html/css er at de fungerer veldig bra til å farge og gi "stil" til tekst. 
+
+er veldig bra at man kan definere en "class" og bruke den på flere plasser i teksten.
+
+Siden html 
+er hieraksik må den ofte laste siden på nytt når det er endringer grafisk.
+Dette tar masse "dyrebar"
+ prosessorkraft og kan gjøre at applikasjoner går senere enn de trenger.
+Siden canvas ikke har denne
+ hierakiske modellen vil det gå raskere å laste grafiske endringer. 
+Det som er bra med canvas er at 
+det grafiske som blir fremstilt på siden vil se likt ut 
+på alle nettlesere og over flere plattformer.
+ Her er det vanligvis med html/css bare mulig 
+og å få nesten helt like sider.
+
+
+
+
+2)
+
+Jeg vil si presantasjonsmåten canvas bruker er ved hjelp av mus og skjermberøring. 
+
+i canvasboksen kan man ved hjelp av mus, tastatur og lignende tegne.
+
+(ikke sikker påp om jeg forsto spørsmålet riktig.)
+
+
+
+
+x)
+ tipper jeg har brukt rundt 3-4 timer 
