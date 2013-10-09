@@ -1,49 +1,47 @@
-Fikk ikke til å bruke variabel eller sette farge på teksten vha. ekstern css i oppgaven.Vet 
+Fikk ikke til ï¿½ bruke variabel eller sette farge pï¿½ teksten vha. ekstern css i oppgaven.Vet 
 jeg hadde gjort riktig med ekstern css siden en jeg hjalp gjorde det samme og det fungerte der.
 
 
 
-Svar på spørsmål:
+Svar pï¿½ spï¿½rsmï¿½l:
 
 0)
 
-Problemet med å bruke "rå" Javascript er at det er fortsatt forskjeller på hvordan de 
+Problemet med ï¿½ bruke "rï¿½" Javascript er at det er fortsatt forskjeller pï¿½ hvordan de 
 forskjellige nettleserne 
-implementerer "Event Listener Model", slik at man må eventuelt 
-skrive egen kode for flere populære nettlesere.
-Men når vi bruker jQuery biblioteket har vi en
- viss garanti for at koden vi skriver funker i de mest populære nettleserne.
+implementerer "Event Listener Model", slik at man mï¿½ eventuelt 
+skrive egen kode for flere populï¿½re nettlesere.
+Men nï¿½r vi bruker jQuery biblioteket har vi en
+ viss garanti for at koden vi skriver funker i de mest populï¿½re nettleserne.
 
 
 
 1)
 
-Sterke sider til html/css er at de fungerer veldig bra til å farge og gi "stil" til tekst. 
+Sterke sider til html/css er at de fungerer veldig bra til ï¿½ farge og gi "stil" til tekst. 
 
-er veldig bra at man kan definere en "class" og bruke den på flere plasser i teksten.
+er veldig bra at man kan definere en "class" og bruke den pï¿½ flere plasser i teksten.
 
 Siden html 
-er hieraksik må den ofte laste siden på nytt når det er endringer grafisk.
+er hieraksik mï¿½ den ofte laste siden pï¿½ nytt nï¿½r det er endringer grafisk.
 Dette tar masse "dyrebar"
- prosessorkraft og kan gjøre at applikasjoner går senere enn de trenger.
+ prosessorkraft og kan gjï¿½re at applikasjoner gï¿½r senere enn de trenger.
 Siden canvas ikke har denne
- hierakiske modellen vil det gå raskere å laste grafiske endringer. 
+ hierakiske modellen vil det gï¿½ raskere ï¿½ laste grafiske endringer. 
 Det som er bra med canvas er at 
-det grafiske som blir fremstilt på siden vil se likt ut 
-på alle nettlesere og over flere plattformer.
+det grafiske som blir fremstilt pï¿½ siden vil se likt ut 
+pï¿½ alle nettlesere og over flere plattformer.
  Her er det vanligvis med html/css bare mulig 
-og å få nesten helt like sider.
-
-
+og ï¿½ fï¿½ nesten helt like sider.
 
 
 2)
 
-Jeg vil si presantasjonsmåten canvas bruker er ved hjelp av mus og skjermberøring. 
+Jeg vil si presantasjonsmï¿½ten canvas bruker er ved hjelp av mus og skjermberï¿½ring. 
 
 i canvasboksen kan man ved hjelp av mus, tastatur og lignende tegne.
 
-(ikke sikker påp om jeg forsto spørsmålet riktig.)
+(ikke sikker pï¿½p om jeg forsto spï¿½rsmï¿½let riktig.)
 
 
 
