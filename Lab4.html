@@ -1,0 +1,126 @@
+<html xmlns = "http://www.w3.org./1999/xhtml" xml : lang="en">
+<head>
+
+<link href="Lab4.css" rel="stylesheet" type="text/css"> 
+	<title>Lab4 alfabetisk liste</title>
+	<script src="Lab4js/jquery-1.8.1.js"></script>
+	<script src="Lab4js/jquery.scrollTo-1.4.7.js"></script>
+	
+	<script>
+	
+		$(function () {
+		
+			$(".firstUL li").each(function() {
+				$(this).click(function() {
+					$(".firstUL li").removeClass("selected");
+					$(this).addClass("selected");
+					elementClick = $(this).attr("id");
+					
+					$(".content-container").scrollTo($("#content-for-"+elementClick),800);
+					$(".content-container div").css({'background-color' : '#ffffff'} );
+					$(".content-container #content-for-"+elementClick).css( {'background-color' : '#d2e2fc'} );
+				});
+			});
+			
+			$('.return-to-top').click(function(){
+				$(".firstUL li").each(function() {
+					$(".firstUL li").removeClass("selected");
+				});
+				
+				$("#a").addClass("selected");
+				$(".content-container").scrollTo($("#content-for-a"),800);
+				$(".content-container div").css( {'background-color' : '#ffffff'} );
+				$(".content-container #content-for-a").css( {'background-color' : '#d2e2fc'} );
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+	<div id="body-container">
+
+		<div class="glossary-container">
+			<ul class="firstUL">
+				<li id="a" class="selected">A</li>
+				<li id="b">B</li>
+				<li id="c">C</li>
+				<li id="d">D</li>
+			</ul>
+		</div>
+		
+		<div class="content-container">
+			<div id="content-for-a" style="background-color:#d2e2fc">
+			
+				<dl>
+					<dt>Actionscript</dt>
+						<dd>Actionscript er et språk basert på ECMAScript som blir brukt
+						primært til utvikling av nettsider og
+						programvare for Adobe flash player-platformen, men
+						også i noe databaseapplikasjoner og grunnleggende robotikk.</dd>
+						
+					<dt>Applescript</dt>
+						<dd>Applescript er et script-språk laget av Apple
+						Inc. Og det er innebygd i Macintosh oprativsystem siden system 7. </dd>
+						
+					<dt>Asp</dt>
+						<dd>Active Server Pages (ASP) er en teknologi for å lage websider som inneholder
+						server-side scripts. ASP er utviklet av Microsoft, og ble utviklet spesifikt for
+						å håndtere utvikling av webapplikasjoner. ASP er innebygd i Microsofts Internet 
+						Information Service (IIS), og gir et script-grensesnitt som er
+						enkelt å lære og som støttes av mange eksisterende HTML-designverktøy.</dd>
+				</dl>
+				<p class="return-to-top">Tilbake til toppen</p>
+			</div>
+		
+			<div id="content-for-b" style="background-color:#d2e2fc">
+			
+				<dl>
+					<dt> Basic</dt>
+						<dd>BASIC (akronym for Beginner's All-purpose Symbolic Instruction Code)
+						er et programmeringsspråk som ble utviklet i USA i 1963, av John George 
+						Kemeny og Thomas Eugene Kurtz på Dartmouth College, med det mål for øye å 
+						gjøre programmering enklere. BASIC er et relativt lettfattelig programmeringsspråk 
+						og benytter seg av bestemte engelske ord i sine kommandoer. </dd>
+						
+				</dl>
+				<p class="return-to-top">Tilbake til toppen</p>
+			</div>
+			
+			<div id="content-for-c" style="background-color:#d2e2fc">
+			
+				<dl>
+					
+					<dt> C++</dt>
+						<dd>C++ er et populært høynivå programmeringsspråk som er en utvidelse av språket C.
+						C++ ble opprinnelig kalt «C with Classes» og ble utviklet og implementert
+						av dansken Bjarne Stroustrup omkring 1983–85, som da jobbet for AT&T Bell Labs.</dd>
+						<dt> COBOL</dt>
+						<dd>COBOL(COmmon Business Oriented Language) er et programmeringsspråk som har vært 
+						i utstrakt bruk for koding av økonomiske og administrative transaksjonssystemer. 
+						Det	ble konstruert i 1959 initiert av amerikanske forsvarsmyndigheter. COBOL brukes 
+						fortsatt i mange eksisterende systemer fordi disse ofte er store,
+						godt uttestet og ikke er utsatt for sterke endringskrav. COBOL og systemene kodet i
+						dette språket ble sterkt fokusert i forbindelse med år 2000-problemet.</dd>
+						
+				</dl>
+				<p class="return-to-top">Tilbake til toppen</p>
+			</div>
+			
+			<div id="content-for-d" style="background-color:#d2e2fc">
+				<dl>
+					<dt>dBASE</dt>
+						<dd>dBASE var den første almindeligt forekommende databaseapplikation til microcomputere. </dd>
+						
+				</dl>
+				<p class="return-to-top">Tilbake til toppen</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+	<address> Laget  oktober 2013  <br>
+	Av Tor Arne.</address>
+</body>
