@@ -53,4 +53,8 @@ i canvasboksen kan man ved hjelp av mus, tastatur og lignende tegne.
 
 x) tipper jeg har brukt rundt 3-4 timer 
 
+-----------------------------------------------------------------------------------------------------------------------
+Lab 4
+
+Har nå laget applikasjonen, lastet opp Lab4.html , Lab4.css , link_sprite_image.jpg , jquery.scrollTo-1.4.7.js , jquery-1.8.1.js . 
 
